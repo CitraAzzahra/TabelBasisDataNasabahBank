@@ -1,66 +1,71 @@
 # Tabel Basis Data Nasabah Bank
 Nama: Citra Azzahra Al-Fatihah
+
 Kelas: A2
+
+Pada kali ini, saya akan menjelaskan beberapa tabel berserta contoh mengenai ERD dengan tema Nasabah Bank.
+
 1. Nasabah Bank
-   ![Screenshot 2023-09-16 212318](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/643fb100-5f58-46ec-a406-0e97e325eaae)
+  ![Entitas Nasabah word](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/d4b14091-3e6b-48f2-9a33-7932a4804a95)
+
+  Gambar tabel yang tertera di atas menampilkan beberapa atribut dari entitas Nasabah, yaitu ID Nasabah dengan tipe data integer berukuran 10 yang bersifat primary key, NIK dengan tipe data integer berukuran 16 dan bersifat foreign key, Nomor Rekening dengan tipe data integer berukuran 12 yanng bersifat foreign key, serta atribut nama, alamat, nomor telepon, pekerjaan, dan tanggal lahir dengan tipe data dan ukurannya masing-masing sesuai yang tertampil pada tabel di atas.
+  
+  ![tabel nasabah](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/b62ca2a9-7ca4-4dbd-87ab-0d78c5fd6245)
    
-  Gambar tabel di atas menampilkan beberapa atribut dari entitas Nasabah, yaitu Nama, Tanggal Lahir, NIK, ID Nasabah, Alamat, Nomor Telepon, Pekerjaan, Nomor Rekening beserta type data setiap atribut, lenght, dan keterangan bila diperlukan, terutama bagi atribut yang bersifat primary key.
+  Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP dengan ikon kunci kuning di samping nama atribut yang berfungsi menunjukkann data bersifat primary key dan kunci berwarna abu-abu menandakan atribut yang bersifat unique atau foreign key.
   
-  ![Screenshot 2023-09-16 214710](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/a4a5dc8f-96b2-47a3-a8bb-b9038e4b68ba)
-  
-  Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP.
-  
-   ![Screenshot 2023-09-16 215411](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/efa5df3b-ab61-4ece-9c99-d9c98a0abe6f)
-  
-  Gambar di atas merupakan bentuk contoh dari data pada tabel yang telah diisi sesuai urutan atribut.
+  ![contoh nasabah](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/29681dce-8bb4-4c41-8eb4-6a0697aec8e5)
+ 
+  Gambar di atas merupakan contoh sebuah data yang telah ditambahkan ke dalam tiap atribut pada tabel yang telah kita buat sesuai dengan fungsinya pada phpmyadmin software XAMPP.
 
 2. Customer Service
-   ![Screenshot 2023-09-16 212340](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/6128f220-9eba-4eb7-98ff-c8b07393e899)
+  ![Entitas CS word](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/448c0a31-a031-441e-888f-cc9d03d22d7c)
 
-   Gambar di atas merupakan beberapa atribut dari entitas Customer Service, yaitu Nama Customer Service dan ID Customer Service beserta type data setiap atribut, lenght, dan keterangan bila diperlukan, terutama bagi atribut yang bersifat primary key seperti ID Customer Service.
+     Gambar tabel yang tertera di atas menampilkan beberapa atribut dari entitas Customer Service, yaitu ID Customer Service dengan tipe data integer berukuran 10 yang bersifat primary serta atribut nama, jenis kelamin dengan tipe data enum disertai pilihan khusus laki-laki atau perempuan, serta nomor telepon dengan tipe data Integer berukuran 20.
 
-  ![Screenshot 2023-09-16 214739](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/3f49cef2-20ca-45e6-9769-6641c82cdb69)
-  
-  Gambar di atas merupakan bentuk tabel entitas Customer Service yanng telah dibuat phpmyadmin pada software XAMPP.
+    ![tabel cs](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/fdfc6317-b460-4c38-a81b-63b7a6c91f33)
 
-  ![Screenshot 2023-09-16 215549](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/d46300ec-c2c4-4eef-b642-ee0c9abfbdcb)
-  
-  Gambar di atas merupakan bentuk contoh dari data pada tabel yang telah diisi sesuai urutan atribut.
+  Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP dengan ikon kunci kuning di samping nama atribut yang berfungsi menunjukkann data bersifat primary key.
+
+  ![contoh cs](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/e6201cdf-482c-4e38-afa6-dc3f3896c071)
+
+    Gambar di atas merupakan contoh sebuah data yang telah ditambahkan ke dalam tiap atribut pada tabel yang telah kita buat sesuai dengan fungsinya pada phpmyadmin software XAMPP.
 
 3. Teller
-   ![Screenshot 2023-09-16 212357](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/b4a057b4-1b90-42f5-b07a-a2a500f6b871)
+   ![Entittas Teller word](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/ba23e0a4-b656-486c-9a03-b0022e0accf5)
 
-  Gambar di atas merupakan beberapa atribut dari entitas Teller, yaitu Nama Teller, dan ID Teller beserta type data setiap atribut, lenght, dan keterangan bila diperlukan, terutama bagi atribut yang bersifat khusus seperti Primary Key.
+  Gambar tabel yang tertera di atas menampilkan beberapa atribut dari entitas Teller, yaitu ID Teller dengan tipe data integer berukuran 10 yang bersifat primary serta atribut nama, jenis kelamin dengan tipe data enum disertai pilihan khusus laki-laki atau perempuan, serta nomor telepon dengan tipe data Integer berukuran 20.
 
-  ![Screenshot 2023-09-16 214801](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/4bd264f8-c2aa-430a-9e57-0472c289be9b)
-  
-  Gambar di atas merupakan bentuk tabel entitas Teller yang dibuat pada phpmyadmin pada software XAMPP.
+  ![tabel teller](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/46aa5aca-2e5d-4310-b15c-54041cc7ccf6)
 
-  ![Screenshot 2023-09-16 215715](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/c346bd8a-133c-4336-a779-2f4dcc1b470a)
-  
-  Gambar di atas merupakan tampilan dari contoh data tabel entitas Teller yang telah diisi sesuai data dan atribut yang berlaku.
+   Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP dengan ikon kunci kuning di samping nama atribut yang berfungsi menunjukkann data bersifat primary key.
+   
+ ![contoh teller](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/3865910c-6dda-4db8-8eb9-e8d9494f8e76)
+
+   Gambar di atas merupakan contoh sebuah data yang telah ditambahkan ke dalam tiap atribut pada tabel yang telah kita buat sesuai dengan fungsinya pada phpmyadmin software XAMPP.
 
 4. Saldo Tabungan
-  ![Screenshot 2023-09-16 212415](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/1776ab05-b21a-4a33-9906-9525ebfbba03)
+   ![Entitas Saldo word](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/6edebf70-edad-4e0a-b561-e772683e2c2d)
 
-  Gambar di atas  merupakan tabel yang berisi beberapa atribut terkait entitas Saldo Tabungan, yaitu Kode Transaksi, Jumlah Setor, No. Slip, No. Rekening, Tanggal Setor beserta type data setiap atribut, lenght, dan keterangan bila diperlukan, terutama bagi atribut yang bersifat khusus seperti Primary Key.
+  Gambar tabel yang tertera di atas menampilkan beberapa atribut dari entitas Saldo Tabungan, yaitu Kode Transaksi dengan tipe data integer berukuran 35 yang bersifat primary key, Nomor Slip dengan tipe data integer berukuran 35 dan bersifat foreign key, Nomor Rekening dengan tipe data integer berukuran 12 yanng bersifat foreign key, serta atribut nama, juamlah setor, dan tanggal setor dengan tipe data dan ukurannya masing-masing sesuai yang tertampil pada tabel di atas.
 
-  ![Screenshot 2023-09-16 214822](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/77371bc1-3f65-4b8c-bbca-17b82b5c3264)
-  
-  Gambar di atas merupakan bentuk tabel dari entitas Saldo Tabungan yang dibuat pada phpmyadmin pada software XAMPP.
+ ![tabel saldo](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/8e44e7a2-4be8-4026-bf34-c4de59921c75)
 
-  ![Screenshot 2023-09-16 220013](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/f782d6e1-f9a6-4764-a840-25c1b76bfd51)
-  
-  Gambar di atas merupakan tampilan tabel dari contoh data entitas Saldo Tabungan yang telah diisi sesuai data dan atribut yang berlaku.
+  Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP dengan ikon kunci kuning di samping nama atribut yang berfungsi menunjukkann data bersifat primary key, serta ikon kunci berwarna biru menandakan data bersifat unique atau foreign key.
+
+  ![contoh saldo](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/f9a8da45-63f8-423f-bb76-ab0aa8415e4b)
+
+   Gambar di atas merupakan contoh sebuah data yang telah ditambahkan ke dalam tiap atribut pada tabel yang telah kita buat sesuai dengan fungsinya pada phpmyadmin software XAMPP.
 
 5. Direktur Bank
-   ![Screenshot 2023-09-16 212431](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/7b2afce2-697a-40b7-9d04-e8864dc83825)
-    Gambar di atas merupakan beberapa atribut dari entitas Direktur Bank, yaitu Nama, dan ID Direktur Bank beserta type data setiap atribut, lenght, dan keterangan bila diperlukan, terutama bagi atribut yang bersifat khusus seperti Primary Key.
+  ![Entitas direktur wprd](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/321d7e8f-ba98-4e6e-ba07-811981990718)
+
+   Gambar tabel yang tertera di atas menampilkan beberapa atribut dari entitas Direktur Bank, yaitu ID Direktur dengan tipe data integer berukuran 10 yang bersifat primary serta atribut nama, jenis kelamin dengan tipe data enum disertai pilihan khusus laki-laki atau perempuan, serta nomor telepon dengan tipe data Integer berukuran 20.
    
-   ![Screenshot 2023-09-16 220141](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/0f7934aa-39d2-4e85-9eea-43f1d20eab69)
+   ![tabel direktur](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/aae41009-c4d4-41d2-85ca-91a5711f31b7)
+   
+    Gambar di atas merupakan bentuk tabel yang telah dibuat melalui phpmyadmin pada software XAMPP dengan ikon kunci kuning di samping nama atribut yang berfungsi menunjukkann data bersifat primary key.
 
-   Gambar di atas merupakan bentuk tabel dari entitas Saldo Tabungan yang dibuat pada phpmyadmin pada software XAMPP.
+  ![contoh direktur](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/25c1d83b-0a15-4592-a47c-58d21ff41337)
 
-  ![Screenshot 2023-09-16 220216](https://github.com/CitraAzzahra/TabelBasisDataNasabahBank/assets/131459504/b33cdc5b-4ad6-407d-bc42-36844f33543c)
-  
-  Gambar di atas merupakan tampilan tabel dari contoh data entitas Direktur Bank yang telah diisi sesuai data dan atribut yang berlaku.
+  Gambar di atas merupakan contoh sebuah data yang telah ditambahkan ke dalam tiap atribut pada tabel yang telah kita buat sesuai dengan fungsinya pada phpmyadmin software XAMPP.
